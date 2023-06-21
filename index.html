@@ -1,60 +1,187 @@
 <!DOCTYPE html>
-<html lang="en-us">
-  <head>
-    <meta charset="UTF-8">
-    <title>Noise, Perception, and Learning: Applications in AI Art</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
-  </head>
-  <body>
-    <section class="page-header">
-      <h1 class="project-name">Noise, Perception, and Learning: Applications in AI Art</h1>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Noise, Perception, and Learning: Applications in AI Art 2023 Course Website</title>
+  <style>
+    /* General Styling */
+    body {
+      background-color: #F8F8F8;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    /* Header Styling */
+    header {
+      background-color: #333333;
+      color: #FFFFFF;
+      padding: 20px;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 36px;
+      margin: 0;
+    }
+
+    h2 {
+      font-size: 24px;
+      margin: 10px 0;
+    }
+
+    /* Navigation Styling */
+    nav {
+      background-color: #555555;
+      padding: 10px;
+    }
+
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+
+    li {
+      display: inline-block;
+      margin-right: 10px;
+    }
+
+    a {
+      color: #FFFFFF;
+      text-decoration: none;
+    }
+
+    /* Main Content Styling */
+    main {
+      margin: 20px;
+    }
+
+    section {
+      margin-bottom: 30px;
+    }
+
+    section h2 {
+      color: #333333;
+      font-size: 28px;
+      margin: 0 0 10px;
+    }
+
+    section ul {
+      margin-left: 20px;
+    }
+
+    /* Footer Styling */
+    footer {
+      background-color: #555555;
+      color: #FFFFFF;
+      padding: 10px;
+      text-align: center;
+    }
+
+    footer p {
+      margin: 0;
+    }
+
+    /* Responsive Styling */
+    @media only screen and (max-width: 600px) {
+      /* Adjust header font size for smaller screens */
+      h1 {
+        font-size: 28px;
+      }
+
+      h2 {
+        font-size: 20px;
+      }
+
+      /* Make navigation items stack vertically */
+      li {
+        display: block;
+        margin: 10px 0;
+      }
+
+      /* Adjust main content margins */
+      main {
+        margin: 10px;
+      }
+
+      /* Reduce section heading font size */
+      section h2 {
+        font-size: 24px;
+      }
+
+      /* Adjust footer font size */
+      footer p {
+        font-size: 12px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Noise, Perception, and Learning: Applications in AI Art IAP 2023</h1>
+      <section class="page-header">
+      <h1 class="project-name"></h1>
       <h2 class="project-tagline"></h2>
       <a href="https://sarahmuschinske.github.io/gen_art_mit" class="btn">View on GitHub</a>
+      </section>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#syllabus">Syllabus</a></li>
+      <li><a href="#lectures">Lectures</a></li>
+      <li><a href="#readings">Readings</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section id="Sign up here!"> <a href="https://forms.gle/t8MZtSDAmQKxi2gt9"></a> </section>
+    <section id="syllabus">
+      <h2>Syllabus</h2>
+      <p>Course description, objectives, and other important information.</p>
+      <!-- Insert the complete syllabus here -->
     </section>
 
-    <section class="main-content">
-      <h3> <a href="https://forms.gle/t8MZtSDAmQKxi2gt9">Sign up here!</a> 
-        Lecture 1 -- Intro to Generative Art
-        <a>Slides </a>
-        Lecture 2 -- Human and Machine Perception
-        <a href = "Perception.pdf">Slides </a>
-        <a href = "https://colab.research.google.com/drive/17Gaicq7zRmyJtDbuVcmJaCYePU3kv2BH?usp=sharing"> DeepDream Notebook </a>
-        Lecture 3 -- Adversarial Examples
-        <a href = "Lecture_3_adversarial.pdf">Slides </a>
+    <section id="lectures">
+      <h2>Lectures</h2>
+      <ul>
+        <li><a href="lecture1.pdf">Lecture 1 -- Intro to Generative Art</a></li>
+        <li><a href="Perception.pdf">Lecture 2 -- Human and Machine Perception</a></li>
+        <li><a href="https://colab.research.google.com/drive/17Gaicq7zRmyJtDbuVcmJaCYePU3kv2BH?usp=sharing">DeepDream Notebook -- Human and Machine Perception</a></li>
+        <li><a href="Lecture_3_adversarial.pdf">Lecture 3 -- Adversarial Examples</a></li>
         <a href = "https://arxiv.org/pdf/1912.04217.pdf"> A cool related paper on making art </a>
-        Lecture 4 -- Stable Diffusion
-        <a href = "Noise_Pattern_Image.pdf"> Slides </a>
+        <li><a href="Noise_Pattern_Image.pdf">Lecture 4 -- Stable Diffusion</a></li>
         <a href = "https://colab.research.google.com/drive/1M2KpX6Iu8WXuVR98LeE-XKTQlF3ylnYi?usp=sharing" > Colab Notebook </a>
-        Lecture 5 -- Human-Machine Interfaces
+        <li><a href="lecture5.pdf">Lecture 5 -- Human-Machine Interfaces</a></li>
         <a href = "https://mit.zoom.us/rec/play/01Z1-RTIPWtpJBGZtM3Qc69WUVux0gDL6ofFBAuPwFE4Kh7xbaguKwsIG4eIwjYk4axwBkwPJ_m3B0sO.Q9mdKxVM84ZepHIP?continueMode=true" > Lecture Video </a>
-        
- <object data="Noise_Perception_Learning_IAP_2023_Syllabus.pdf" width="1000" height="1000" type="application/pdf"></object>
-
-      
-<a id="authors-and-contributors" class="anchor" href="#authors-and-contributors" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Authors and Contributors</h3>
-<pre>Sarah Muschinske, PhD student in EECS, RLE 
-Aspen Hopkins, PhD student in EECS, CSAIL 
-Mikey Fernandez, PhD student in MechE, Media Lab 
-Logan Engstrom, PhD student in EECS, CSAIL 
-Chandler Squires, PhD student in EECS, LIDS
-John Simonaitis, PhD student in EECS, RLE
-     </pre>
-<h3>
-<a id="support-or-contact" class="anchor" href="#support-or-contact" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Support or Contact</h3>
-<p>Having trouble with Pages? Check out our <a href="https://help.github.com/pages">documentation</a> or <a href="https://github.com/contact">contact support</a> and we’ll help you sort it out.</p>
-
-      <footer class="site-footer">
-        <span class="site-footer-owner"><a href="https://sarahmuschinske.github.io/gen_art_mit">Noise, Perception, and Learning: Applications in AI Art</a> is maintained by <a href="https://github.com/sarahmuschinske">sarahmuschinske</a>.</span>
-
-        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
-      </footer>
-
+      </ul>
     </section>
 
+<!--     <section id="readings">
+      <h2>Readings</h2>
+      <ul>
+        <li><a href="reading1.pdf">Reading 1 - Title of Reading 1</a></li>
+        <li><a href="reading2.pdf">Reading 2 - Title of Reading 2</a></li>
+        <li><a href="reading3.pdf">Reading 3 - Title of Reading 3</a></li>
+        <!-- Add more reading links as necessary -->
+      </ul>
+    </section> -->
+  </main>
   
-  </body>
+  <a id="authors-and-contributors" class="anchor" href="#authors-and-contributors" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Authors and Contributors</h3>
+  <pre>Sarah Muschinske, PhD student in EECS, RLE 
+  Aspen Hopkins, PhD student in EECS, CSAIL 
+  Mikey Fernandez, PhD student in MechE, Media Lab 
+  Logan Engstrom, PhD student in EECS, CSAIL 
+  Chandler Squires, PhD student in EECS, LIDS
+  John Simonaitis, PhD student in EECS, RLE
+       </pre>
+  <h3>
+  
+  <footer>
+    <p>© 2023 Sarah Muschinske, ChatGPT. All rights reserved.</p>
+  </footer>
+</body>
 </html>
