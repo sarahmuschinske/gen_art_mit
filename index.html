@@ -13,22 +13,40 @@
       padding: 0;
     }
 
-    /* Header Styling */
-    header {
-      background-color: #333333;
-      padding: 20px;
-      text-align: center;
-    }
+  /* Header Styling */
+  header {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    text-align: center;
+  }
 
-    h1 {
-      font-size: 48px;
-      margin: 0;
-    }
+  .header-content {
+    position: relative;
+  }
 
-    h2 {
-      font-size: 36px;
-      margin: 10px 0;
-    }
+  img {
+    max-width: 100%;
+    height: auto;
+    opacity: 0.7;
+  }
+
+  .header-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #FFFFFF;
+  }
+
+  h1 {
+    font-size: 48px;
+    margin: 0;
+  }
+
+  h2 {
+    font-size: 36px;
+    margin: 10px 0;
+  }
 
     /* Navigation Styling */
     nav {
@@ -142,7 +160,10 @@
 </head>
 <body>
   <header>
+      <div class="header-content">
     <img src="header.png" alt="Header Image">
+    <div class="header-text">
+  
     <h1>Noise, Perception, and Learning: Applications in AI Art</h1>
     <h2> MIT IAP 2023 </h2>
       <section class="page-header">
@@ -150,6 +171,8 @@
       <h2 class="project-tagline"></h2>
       <a href="https://sarahmuschinske.github.io/gen_art_mit" class="btn">View on GitHub</a>
       </section>
+      </div>
+  </div>
   </header>
 
   <nav>
